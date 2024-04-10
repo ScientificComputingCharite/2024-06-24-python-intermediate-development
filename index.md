@@ -109,7 +109,7 @@ and design techniques
 >   to navigate a UNIX-style file system and run commands with arguments**
 > - Optionally, you have experience redirecting inputs and outputs from a command
 {: .prereq}
-
+ 
 > ## Setup
 > Please make sure that you have all the necessary software and accounts setup ahead of the workshop
 > as described in the [Setup](./setup.html) section.
