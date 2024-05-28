@@ -434,13 +434,13 @@ because an incorrect comment causes more confusion than no comment at all.
 > and identify where the above guidelines have not been followed.
 > Fix the discovered inconsistencies and commit them to the feature branch.
 >
-> Time: 10 min
+> 
 >> ## Solution
 >> Modify `inflammation-analysis.py` from PyCharm,
 >> which is helpfully marking inconsistencies with coding guidelines by underlying them.
 >> There are a few things to fix in `inflammation-analysis.py`, for example:
 >>
->>  1. Line 24 in `inflammation-analysis.py` is too long and not very readable.
+>>  1. Line 30 in `inflammation-analysis.py` is too long and not very readable.
 >>     A better style would be to use multiple lines and hanging indent,
 >>     with the closing brace `}' aligned either with
 >>     the first non-whitespace character of the last line of list
@@ -647,7 +647,7 @@ help(fibonacci)
 > `daily_max`.
 > Commit those changes to feature branch `style-fixes`.
 >
-> Time: 10 min
+> 
 > > ## Solution
 > > For example,
 > > the improved docstrings for the above functions would contain explanations

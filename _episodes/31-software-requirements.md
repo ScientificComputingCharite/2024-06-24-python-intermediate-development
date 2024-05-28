@@ -1,7 +1,7 @@
 ---
 title: "Software Requirements"
-teaching: 15
-exercises: 30
+teaching: 25
+exercises: 15
 questions:
 - "Where do we start when beginning a new software project?"
 - "How can we capture and organise what is required for software to function as intended?"
@@ -22,7 +22,7 @@ The requirements of our software are the basis on which the whole project rests 
 if we get the requirements wrong, we'll build the wrong software.
 However, it's unlikely that we'll be able to determine all of the requirements upfront.
 Especially when working in a research context,
-requirements are flexible and may change as we develop our software.
+requirements are flexible and may change as we develop our software.  
 
 ## Types of Requirements
 
@@ -52,7 +52,7 @@ For adapting our inflammation software project, example business requirements co
 > Think of a new hypothetical business-level requirements for this software.
 > This can be anything you like, but be sure to keep it at the high-level of the business itself.
 >
-> Time: 5 min
+> 
 >> ## Solution
 >> One hypothetical new business requirement (BR3) could be
 >> extending our clinical trial system to keep track of doctors who are being involved in the project.
@@ -90,7 +90,7 @@ they could include things for trial managers such as (building on the business r
 > into a number of logical user requirements,
 > ensuring they stay above the level and detail of implementation.
 >
-> Time: 5 min
+> 
 >> ## Solution
 >> For our business requirement BR3 from the previous exercise,
 >> the new user/stakeholder requirements may be the ability to
@@ -178,7 +178,7 @@ and these aspects should be considered as part of the software's non-functional 
 >   - May need to run continuously for the lifetime of the device
 >   - Typically written in a lower-level language (e.g. C) for better control of resources
 >
-> Time: 10 min
+> 
 > > ## Some More Examples
 > >
 > > - Desktop Application
@@ -216,7 +216,7 @@ and these aspects should be considered as part of the software's non-functional 
 > into a number of logical solution requirements (functional and non-functional),
 > that address the detail required to be able to implement them in the software.
 >
-> Time: 10 min
+> 
 >> ## Solution
 >> For our new hypothetical business requirement BR3,
 >> new functional solution requirements could be extending
@@ -229,17 +229,16 @@ and these aspects should be considered as part of the software's non-functional 
 
 > ## Optional Exercise: Requirements for Your Software Project
 >
-> Think back to a piece of code or software (either small or large) you've written,
+> Think back to a piece of code or software (either small or large) you have written,
 > or which you have experience using.
 > First, try to formulate a few of its key business requirements,
-> then derive these into user and then solution requirements
-> (in a similar fashion to the ones above in *Types of Requirements*).
+> then derive these into user and then solution requirements.
 {: .challenge}
 
 
 ### Long- or Short-Lived Code?
 
-Along with requirements, here's something to consider early on.
+Along with requirements, here is something to consider early on.
 You, perhaps with others, may be developing open-source software
 with the intent that it will live on after your project completes.
 It could be important to you that your software is adopted and used by other projects
@@ -255,10 +254,10 @@ so be sure to consider these aspects.
 On the other hand, you might want to knock together some code to prove a concept
 or to perform a quick calculation
 and then just discard it.
-But can you be sure you'll never want to use it again?
-Maybe a few months from now you'll realise you need it after all,
+But can you be sure you will never want to use it again?
+Maybe a few months from now you will realise you need it after all,
 or you'll have a colleague say "I wish I had a..."
-and realise you've already made one.
+and realise you have already made one.
 A little effort now could save you a lot in the future.
 
 ## From Requirements to Implementation, via Design

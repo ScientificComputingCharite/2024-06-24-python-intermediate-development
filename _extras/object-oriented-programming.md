@@ -1,5 +1,6 @@
 ---
 title: "Object Oriented Programming"
+layout: episode
 teaching: 30
 exercises: 35
 questions:
@@ -26,7 +27,7 @@ Data is encapsulated in the form of fields (attributes) of objects,
 while code is encapsulated in the form of procedures (methods)
 that manipulate objects' attributes and define "behaviour" of objects.
 So, in object oriented programming,
-we first think about the data and the things that we’re modelling -
+we first think about the data and the things that we are modelling -
 and represent these by objects -
 rather than define the logic of the program,
 and code becomes a series of interactions between objects.
@@ -104,7 +105,7 @@ patients = [
 > ~~~
 > {: .output}
 >
-> Time: 10 min
+> 
 > > ## Solution
 > >
 > > One possible solution, perhaps the most obvious,
@@ -461,7 +462,7 @@ section of the Python documentation.
 > ~~~
 > {: .output}
 >
-> Time: 5 min
+> 
 > > ## Solution
 > >
 > > ~~~
@@ -802,7 +803,7 @@ before we can properly initialise a `Patient` model with their inflammation data
 > explain them and how you implemented them to your neighbour.
 > Would they have implemented that feature in the same way?
 >
-> Time: 20 min
+> 
 > > ## Solution
 > > One example solution is shown below.
 > > You may start by writing some tests (that will initially fail),
@@ -905,3 +906,4 @@ before we can properly initialise a `Patient` model with their inflammation data
 {: .challenge}
 
 {% include links.md %}
+ 
