@@ -322,7 +322,7 @@ but instead practise and taking care to:
 * Keep how much a person has to understand at once to a minimum.
 * Try not to have too many abstractions (if you have to jump around a lot when reading the 
 code that is a clue that your code may be too abstract).
-* Think about how will your components interface other components and external systems.
+* Think about how your components will interface other components and external systems.
 * Not try to design a future-proof solution or to anticipate future requirements or adaptations 
 of the software - design the simplest solution that solves the problem at hand.
 * (When working on a less well-structured part of the code), start by refactoring it so that your 
